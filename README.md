@@ -1,2 +1,2 @@
 # Book-List
-https://jyldyzbek1.github.io/Book-List/
+https://jyldyzbek1.github.io/Book-List/index.html
