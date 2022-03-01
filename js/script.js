@@ -59,4 +59,15 @@ function Book(title, author, isbn) {
     }
     e.preventDefault();
   });
+
+UI.prototype.delete = function (tr) {
+    if (tr.className === "delete") {
+      tr.parentElement.parentElement.remove();
+    }
+  };
+
+  document.querySelector("#book-list").addEventListener("click", function(e) {
+      const ui = new UI();
+      ui.delete(e.target);
+  });
   
